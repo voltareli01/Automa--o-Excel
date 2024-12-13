@@ -15,6 +15,7 @@ function App() {
   const handleUpload = async (e) => {
     e.preventDefault();
 
+    
     if (!arquivo) {
       setMensagem("Por favor, selecione um arquivo Excel.");
       return;
